@@ -10,10 +10,11 @@
   }
 }
 
-#div2 {
+body {
+  background-color: #ECF5FF;
 }
 
-#div3 {
+#div3-container {
   font-family: "Ubuntu", sans-serif;
   position: absolute;
   top: 40px;
@@ -35,18 +36,20 @@
   border-radius: 30px 30px 30px 30px;
 }
 
-#div5 {
+/* Yellow Right Bar*/
+#div5-yellow {
   z-index: 6;
   position: absolute;
   border-radius: 0px 30px 30px 0px;
-  left: 475px;
-  top: 6px;
-  width: 150px;
+  left: 470px;
+  top: 184px;
+  width: 200px;
   background-color: #FFBC00;
   height: 28px;
 }
 
-#div15 {
+/* Green Left Bar*/
+#div15-green {
   z-index: 6;
   position: relative;
   background-color: #06D38C;
@@ -54,11 +57,4 @@
   width: 230px;
   border-radius: 30px 30px 30px 30px;
   top: -0px;
-}
-
-#div4 {
-  z-index: 6;
-  position: absolute;
-  margin-bottom: 15px;
-  padding: 25px 10px 5px;
 }
