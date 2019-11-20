@@ -1,14 +1,14 @@
 
 @media (min-width: 768px) {
-.mobile {
-  display: none;
-}
+  .mobile {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
-.desktop {
-  display: none;
-}
+  .desktop {
+    display: none;
+  }
 }
 
 .div-headline {
@@ -56,7 +56,7 @@ body {
 background-color: #ECF5FF;
 }
 
-.div3-container {
+#div3-container {
 font-family: "Ubuntu", sans-serif;
 position: fixed;
 top: 40px;
